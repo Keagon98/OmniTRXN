@@ -1,0 +1,13 @@
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\bin\Debug\net10.0\OmniTrxnService.Domain.deps.json
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\bin\Debug\net10.0\OmniTrxnService.Domain.dll
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\bin\Debug\net10.0\OmniTrxnService.Domain.pdb
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\OmniTrxnService.Domain.csproj.AssemblyReference.cache
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\OmniTrxnService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\OmniTrxnService.Domain.AssemblyInfoInputs.cache
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\OmniTrxnService.Domain.AssemblyInfo.cs
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\OmniTrxnService.Domain.csproj.CoreCompileInputs.cache
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\OmniTrxnService.Domain.dll
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\refint\OmniTrxnService.Domain.dll
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\OmniTrxnService.Domain.pdb
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\ref\OmniTrxnService.Domain.dll
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Domain\obj\Debug\net10.0\OmniTrxn.B8440EFF.Up2Date

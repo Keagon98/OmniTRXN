@@ -1,0 +1,6 @@
+@OmniTrxnService.Api_HostAddress = http://localhost:5218
+
+GET {{OmniTrxnService.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

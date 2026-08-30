@@ -1,0 +1,16 @@
+txId,bookingDate,valueDate,amount,currency,creditDebit,merchantName,category,mcc,remittance,bankReference
+txn-uuid-3001,2026-08-01,2026-08-01,-450.75,ZAR,DEBIT,Shoprite,Groceries,5411,"Weekly groceries",FNB-BANKTX-20260801-3001
+txn-uuid-3002,2026-08-02,2026-08-02,-720.00,ZAR,DEBIT,Shell,Fuel,5542,"Fuel fill-up",FNB-BANKTX-20260802-3002
+txn-uuid-3003,2026-08-03,2026-08-03,-620.40,ZAR,DEBIT,City Power,Utilities,4900,"Electricity bill",FNB-BANKTX-20260803-3003
+txn-uuid-3004,2026-08-04,2026-08-04,-199.99,ZAR,DEBIT,TelcoCo,Telecoms,4814,"Mobile data bundle",FNB-BANKTX-20260804-3004
+txn-uuid-3005,2026-08-05,2026-08-05,-32.50,ZAR,DEBIT,MyTaxi,Transport,4121,"Ride to office",FNB-BANKTX-20260805-3005
+txn-uuid-3006,2026-08-06,2026-08-06,-120.00,ZAR,DEBIT,Coffee Corner,Dining,5812,"Lunch",FNB-BANKTX-20260806-3006
+txn-uuid-3007,2026-08-07,2026-08-07,-250.00,ZAR,DEBIT,CinemaWorld,Entertainment,7832,"Movie night",FNB-BANKTX-20260807-3007
+txn-uuid-3008,2026-08-08,2026-08-08,-899.00,ZAR,DEBIT,ClothingMart,Retail,5651,"New jacket",FNB-BANKTX-20260808-3008
+txn-uuid-3009,2026-08-09,2026-08-09,-320.45,ZAR,DEBIT,HealthPlus,Health,8041,"Pharmacy purchase",FNB-BANKTX-20260809-3009
+txn-uuid-3010,2026-08-10,2026-08-10,-150.00,ZAR,DEBIT,InsureCo,Insurance/Financial,6300,"Monthly premium",FNB-BANKTX-20260810-3010
+txn-uuid-3011,2026-08-22,2026-08-22,8000.00,ZAR,CREDIT,Employer Pty Ltd,Salary/Income,0000,"Salary Aug 2026",FNB-BANKTX-20260822-2003
+txn-uuid-3012,2026-08-11,2026-08-11,-2000.00,ZAR,DEBIT,InvestCo,Savings/Investments,6211,"Lump sum investment",FNB-BANKTX-20260811-3012
+txn-uuid-3013,2026-08-12,2026-08-12,-500.00,ZAR,DEBIT,ATM Withdrawal,Cash/ATM,6011,"Cash withdrawal",FNB-BANKTX-20260812-3013
+txn-uuid-3014,2026-08-13,2026-08-13,-75.00,ZAR,DEBIT,Corner Deli,Groceries,5411,"Milk & bread",FNB-BANKTX-20260813-3014
+txn-uuid-3015,2026-08-14,2026-08-14,-49.99,ZAR,DEBIT,OnlineStore,Uncategorized,5999,"One-off purchase",FNB-BANKTX-20260814-3015

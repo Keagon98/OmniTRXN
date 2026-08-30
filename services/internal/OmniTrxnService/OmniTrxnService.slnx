@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OmniTrxnService.Api/OmniTrxnService.Api.csproj" />
+    <Project Path="src/OmniTrxnService.Application/OmniTrxnService.Application.csproj" />
+    <Project Path="src/OmniTrxnService.Domain/OmniTrxnService.Domain.csproj" />
+    <Project Path="src/OmniTrxnService.Infrastructure/OmniTrxnService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>

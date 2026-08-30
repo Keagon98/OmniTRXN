@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://transactions.fnb.soapservice.co.za"
+           xmlns="http://transactions.fnb.soapservice.co.za"
+           elementFormDefault="qualified">
+
+    <xs:element name="getCustomerTransactionsRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="accountId">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:minLength value="1"/>
+                            <xs:whiteSpace value="collapse"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Root Element -->
+    <xs:element name="getCustomerTransactionsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="statementId" type="xs:string"/>
+                <xs:element name="createdDateTime" type="xs:dateTime"/>
+                <xs:element name="account" type="AccountType"/>
+                <xs:element name="transactions" type="TransactionListType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Account Type Definition -->
+    <xs:complexType name="AccountType">
+        <xs:sequence>
+            <xs:element name="accountId" type="xs:string"/>
+            <xs:element name="masked" type="xs:string"/>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="currency" type="CurrencyCode"/>
+            <xs:element name="availableBalance" type="xs:decimal"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Transaction List Type Definition -->
+    <xs:complexType name="TransactionListType">
+        <xs:sequence>
+            <xs:element name="transaction" type="TransactionType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Transaction Type Definition -->
+    <xs:complexType name="TransactionType">
+        <xs:sequence>
+            <xs:element name="txId" type="xs:string"/>
+            <xs:element name="bookingDate" type="xs:date"/>
+            <xs:element name="valueDate" type="xs:date"/>
+            <xs:element name="amount" type="xs:decimal"/>
+            <xs:element name="currency" type="CurrencyCode"/>
+            <xs:element name="creditDebit" type="CreditDebitType"/>
+            <xs:element name="merchantName" type="xs:string"/>
+            <xs:element name="category" type="xs:string"/>
+            <xs:element name="mcc" type="xs:string" minOccurs="0"/>
+            <xs:element name="remittance" type="xs:string" minOccurs="0"/>
+            <xs:element name="bankReference" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Simple Type for Currency (ISO 4217, 3 letters) -->
+    <xs:simpleType name="CurrencyCode">
+        <xs:restriction base="xs:string">
+            <xs:length value="3"/>
+            <xs:pattern value="[A-Z]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Simple Type for Credit/Debit Indicator -->
+    <xs:simpleType name="CreditDebitType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="CREDIT"/>
+            <xs:enumeration value="DEBIT"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

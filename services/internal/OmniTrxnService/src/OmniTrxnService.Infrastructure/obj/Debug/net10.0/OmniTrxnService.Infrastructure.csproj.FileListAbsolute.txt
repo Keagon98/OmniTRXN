@@ -1,0 +1,17 @@
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\bin\Debug\net10.0\OmniTrxnService.Infrastructure.deps.json
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\bin\Debug\net10.0\OmniTrxnService.Infrastructure.dll
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\bin\Debug\net10.0\OmniTrxnService.Infrastructure.pdb
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\bin\Debug\net10.0\OmniTrxnService.Application.dll
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\bin\Debug\net10.0\OmniTrxnService.Domain.dll
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\bin\Debug\net10.0\OmniTrxnService.Application.pdb
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\bin\Debug\net10.0\OmniTrxnService.Domain.pdb
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\OmniTrxnService.Infrastructure.csproj.AssemblyReference.cache
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\OmniTrxnService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\OmniTrxnService.Infrastructure.AssemblyInfoInputs.cache
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\OmniTrxnService.Infrastructure.AssemblyInfo.cs
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\OmniTrxnService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\OmniTrxn.21D2D8AD.Up2Date
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\OmniTrxnService.Infrastructure.dll
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\refint\OmniTrxnService.Infrastructure.dll
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\OmniTrxnService.Infrastructure.pdb
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Infrastructure\obj\Debug\net10.0\ref\OmniTrxnService.Infrastructure.dll

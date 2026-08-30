@@ -1,0 +1,174 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\internal\\omnitrxnservice\\src\\omnitrxnservice.api\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|solutionrelative:src\\omnitrxnservice.api\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\internal\\omnitrxnservice\\src\\omnitrxnservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|solutionrelative:src\\omnitrxnservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\internal\\omnitrxnservice\\src\\omnitrxnservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|solutionrelative:src\\omnitrxnservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\internal\\omnitrxnservice\\src\\omnitrxnservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|solutionrelative:src\\omnitrxnservice.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\internal\\omnitrxnservice\\src\\omnitrxnservice.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|solutionrelative:src\\omnitrxnservice.api\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F08215-2A5D-06A7-F3FF-5DA74E8292FE}|src\\OmniTrxnService.Infrastructure\\OmniTrxnService.Infrastructure.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\internal\\omnitrxnservice\\src\\omnitrxnservice.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F08215-2A5D-06A7-F3FF-5DA74E8292FE}|src\\OmniTrxnService.Infrastructure\\OmniTrxnService.Infrastructure.csproj|solutionrelative:src\\omnitrxnservice.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F08215-2A5D-06A7-F3FF-5DA74E8292FE}|src\\OmniTrxnService.Infrastructure\\OmniTrxnService.Infrastructure.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\internal\\omnitrxnservice\\src\\omnitrxnservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F08215-2A5D-06A7-F3FF-5DA74E8292FE}|src\\OmniTrxnService.Infrastructure\\OmniTrxnService.Infrastructure.csproj|solutionrelative:src\\omnitrxnservice.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\internal\\omnitrxnservice\\src\\omnitrxnservice.api\\omnitrxnservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6BAA9582-DC05-A1DC-3302-7B8B0A20B4D3}|src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj|solutionrelative:src\\omnitrxnservice.api\\omnitrxnservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F08215-2A5D-06A7-F3FF-5DA74E8292FE}|src\\OmniTrxnService.Infrastructure\\OmniTrxnService.Infrastructure.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\internal\\omnitrxnservice\\src\\omnitrxnservice.infrastructure\\backgroundjobs\\transactionpollingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F08215-2A5D-06A7-F3FF-5DA74E8292FE}|src\\OmniTrxnService.Infrastructure\\OmniTrxnService.Infrastructure.csproj|solutionrelative:src\\omnitrxnservice.infrastructure\\backgroundjobs\\transactionpollingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\OmniTrxnService.Api\\Program.cs",
+              "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\Program.cs",
+              "RelativeToolTip": "src\\OmniTrxnService.Api\\Program.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAhwH0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T14:14:21.212Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Docker.json",
+              "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\appsettings.Docker.json",
+              "RelativeDocumentMoniker": "src\\OmniTrxnService.Api\\appsettings.Docker.json",
+              "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\appsettings.Docker.json",
+              "RelativeToolTip": "src\\OmniTrxnService.Api\\appsettings.Docker.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-30T15:51:41.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\OmniTrxnService.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\OmniTrxnService.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-30T15:35:59.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\OmniTrxnService.Api\\appsettings.json",
+              "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\appsettings.json",
+              "RelativeToolTip": "src\\OmniTrxnService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-30T15:30:12.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "src\\OmniTrxnService.Api\\Controllers\\TransactionsController.cs",
+              "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "src\\OmniTrxnService.Api\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T15:21:58.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Infrastructure\\Persistence\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "src\\OmniTrxnService.Infrastructure\\Persistence\\DbInitializer.cs",
+              "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Infrastructure\\Persistence\\DbInitializer.cs",
+              "RelativeToolTip": "src\\OmniTrxnService.Infrastructure\\Persistence\\DbInitializer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwA8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T15:19:43.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\OmniTrxnService.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\OmniTrxnService.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T15:17:53.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionPollingService.cs",
+              "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Infrastructure\\BackgroundJobs\\TransactionPollingService.cs",
+              "RelativeDocumentMoniker": "src\\OmniTrxnService.Infrastructure\\BackgroundJobs\\TransactionPollingService.cs",
+              "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Infrastructure\\BackgroundJobs\\TransactionPollingService.cs",
+              "RelativeToolTip": "src\\OmniTrxnService.Infrastructure\\BackgroundJobs\\TransactionPollingService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T15:17:46.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OmniTrxnService.Api",
+              "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj",
+              "RelativeDocumentMoniker": "src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj",
+              "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj",
+              "RelativeToolTip": "src\\OmniTrxnService.Api\\OmniTrxnService.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-30T15:09:55.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

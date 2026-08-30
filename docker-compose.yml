@@ -1,0 +1,81 @@
+services:
+  ozow:
+    build:
+      context: ./services/external/ozow-transaction-api/OzowTransactionService
+      dockerfile: Dockerfile               
+    image:   ozow:latest                    
+    container_name: ozow-transaction-api      
+    ports:
+      - "8080:8080"                       
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    restart: unless-stopped    
+    networks:
+      - app-network 
+  
+  fnb:
+    build:
+      context: ./services/external/fnb-transaction-api/FnbTransactionService  
+      dockerfile: Dockerfile
+    image:   fnb:latest  
+    container_name: fnb-transaction-api 
+    ports:
+      - "8081:8080"   
+    restart: unless-stopped
+    networks:
+      - app-network          
+  
+  gateway:
+    build:
+      context: ./services/gateway/OmniTrxnGateway
+      dockerfile: Dockerfile               
+    image:   gateway:latest                    
+    container_name: omnitrxn-gateway      
+    ports:
+      - "8082:8080"                        
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ServiceUrls__Ozow=http://ozow:8080
+      - ServiceUrls__Fnb=http://fnb:8080
+      - ServiceUrls__OmniTrxn=http://omnitrxn:8080
+    depends_on:
+      - ozow
+      - fnb
+    restart: unless-stopped    
+    networks:
+      - app-network 
+
+  omnitrxn:
+    build:
+      context: ./services/internal/OmniTrxnService
+      dockerfile: Dockerfile               
+    image:   omnitrxn:latest                    
+    container_name: omnitrxn-transaction-api      
+    ports:
+      - "8083:8080"                       
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - ServiceUrls__Gateway=http://gateway:8080
+    depends_on:
+      - gateway
+      - sqlserver
+    restart: unless-stopped    
+    networks:
+      - app-network 
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: omnitrxn-db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "oMn!3x=="
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+volumes:
+  sql_data:
+
+networks:
+  app-network:
+    driver: bridge
