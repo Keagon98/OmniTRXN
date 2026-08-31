@@ -90,8 +90,8 @@ Below is a high-level view of the System Architecture for this project
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-org/omnitrxn.git
-cd omnitrxn
+git clone https://github.com/your-org/omnitrxn.git](https://github.com/Keagon98/OmniTRXN.git
+cd OmniTRXN
 ```
 
 ### 2. Start up Docker Containers
