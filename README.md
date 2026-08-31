@@ -96,13 +96,13 @@ cd OmniTRXN
 
 In project root, run the following command:
 
-```
-docker-compose up -d
+```bash
+docker-compose up -d --build
 ```
 
 To see if all of the containers are running, run this command:
 
-```
+```bash
 docker-compose ps
 ```
 
