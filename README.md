@@ -2,10 +2,32 @@
 
 OmniTRXN is a backend service that aggregates customer transaction data from multiple external sources, normalizes it into a standardized format, stores it in a SQL Server database, and exposes it through a secure, documented REST API. The solution follows **Clean Architecture** principles and adheres to **SOLID** and **OOP** best practices.
 
+#### Project Goals
+---
+#### The why?
+
+To get a damn job at Capitec!!! I'm kidding (well kind of)…
+
+The goal of this project is to demonstrate how production-ready systems integrate with external vendors/merchants, how systems ingest data (sometimes ambiguous) in various formats (JSON/XML in this instance) and normalize data to a single standardized schema, and how they store data in a queryable relational database with a retention policy. It should also demonstrate how systems securely expose data to external users for consumption via a well documented API, and how systems handle retry logic, logging, and metrics.
+
+This project should also be easy to clone and run locally by anybody using a docker compose file.
+
+---
+#### The Who?
+
+Who is the target user for this type of project?
+
+- **Data analysts**: to build dashboards and run ad-hoc queries on transaction trends.
+- **Business intelligence teams**: to create scheduled reports from aggregated data.
+- **Finance and accounting**: to reconcile transactions, run summaries, and support audits.
+- **Fraud and risk teams**: to detect anomalies and investigate suspicious activity.
+
+---
+
 This repository includes:
-- **OmniTRXN API** (internal service) – built with .NET 10
+- **OmniTRXN API** (internal service)
 - **API Gateway** (YARP) – handles routing, authentication, caching, and more
-- **External vendor services** – one REST (Ozow, Spring Boot) and one SOAP (FNB)
+- **External vendor services** – one REST (Ozow) and one SOAP (FNB) service
 - **SQL Server** database
 - **Docker Compose** file to run the entire stack locally
 
@@ -22,7 +44,9 @@ The solution is divided into four main layers:
 
 All communication with external services goes through the API Gateway. The gateway authenticates incoming requests (JWT) and injects the required Basic Auth credentials for the upstream vendor services.
 
-Below is a high level view of the System Architecture for this project
+Below is a high-level view of the System Architecture for this project
+
+<img width="13852" height="6465" alt="OmnTRXN-System-Architecture" src="https://github.com/user-attachments/assets/2dcf4e03-d4ba-4289-b60e-dfa2dd425e9b" />
 
 ---
 
@@ -30,7 +54,7 @@ Below is a high level view of the System Architecture for this project
 
 - **Periodic Ingestion**: A background service polls the external APIs at configurable intervals to fetch transaction data.
 - **Normalization**: Raw responses are converted to a common JSON format and mapped to the internal `Transaction` entity. XML responses are first converted to JSON.
-- **Storage**: Transactions are upserted into SQL Server (with unique constraint on vendor + transaction ID).
+- **Storage**: Transactions are upserted into SQL Server.
 - **Secure Query API**: Endpoints allow filtering by category, debit/credit, vendor, customer number, and date range.
 - **Seeding**: The database is automatically seeded with a sample customer and vendor mappings on startup.
 - **Observability**: Structured logging, exception handling, and health checks are included.
@@ -64,8 +88,8 @@ Below is a high level view of the System Architecture for this project
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-org/omnitrxn.git
-cd omnitrxn
+git clone https://github.com/Keagon98/OmniTRXN.git
+cd OmniTRXN
 ```
 
 ### 2. Start up Docker Containers
