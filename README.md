@@ -24,6 +24,8 @@ Who is the target user for this type of project?
 
 There's many more of course.
 
+---
+
 This repository includes:
 - **OmniTRXN API** (internal service) – built with .NET 10
 - **API Gateway** (YARP) – handles routing, authentication, caching, and more
