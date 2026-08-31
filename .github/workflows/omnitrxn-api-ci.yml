@@ -3,8 +3,12 @@ name: CI Pipeline - OmniTRXN API
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'services/internal/**' 
   pull_request:
     branches: [ main ]
+    paths:
+      - 'services/internal/**' 
 
 jobs:
   build-and-test:
