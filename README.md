@@ -60,6 +60,21 @@ Below is a high-level view of the System Architecture for this project
 - **Observability**: Structured logging, exception handling, and health checks are included.
 - **Testing**: Unit and integration tests cover adapters, normalizers, services, and API endpoints.
 
+### CI Pipeline
+
+A GitHub Actions workflow (`.github/workflows/ci.yml`) automatically builds and tests the OmniTRXN API whenever changes are pushed to the `main` branch or a pull request targeting `main` is opened, provided the changes are under the `services/internal/` directory.
+
+The pipeline performs the following steps:
+
+1. **Checkout** the repository.
+2. **Setup .NET 10** SDK.
+3. **Restore** NuGet dependencies for the solution (`services/internal/OmniTrxnService/OmniTrxnService.slnx`).
+4. **Build** the solution in Release configuration.
+5. **Run unit tests** (`OmniTrxn.Tests.Unit`) to validate core logic.
+6. **Run integration tests** (`OmniTrxn.Tests.Integration`) using Docker (for Testcontainers) to spin up a SQL Server container and verify end‑to‑end behavior.
+
+This ensures that any code change affecting the internal services is automatically checked for compilation errors and test failures before it can be merged.
+
 ---
 
 ## Tech Stack
