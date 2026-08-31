@@ -5,5 +5,8 @@
     <Project Path="src/OmniTrxnService.Domain/OmniTrxnService.Domain.csproj" />
     <Project Path="src/OmniTrxnService.Infrastructure/OmniTrxnService.Infrastructure.csproj" />
   </Folder>
-  <Folder Name="/tests/" />
+  <Folder Name="/tests/">
+    <Project Path="tests/OmniTrxn.Tests.Integration/OmniTrxn.Tests.Integration.csproj" Id="9b73be4c-e077-4a1d-bb6f-040ee317ace3" />
+    <Project Path="tests/OmniTrxn.Tests.Unit/OmniTrxn.Tests.Unit.csproj" Id="be7016a6-2373-4b05-8f18-af11dd4b6f96" />
+  </Folder>
 </Solution>

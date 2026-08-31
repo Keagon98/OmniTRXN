@@ -258,7 +258,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowScalar", policy =>
     {
-        policy.WithOrigins("https://localhost:7293")
+        policy.AllowAnyOrigin()
               .AllowAnyHeader()
               .AllowAnyMethod();
     });

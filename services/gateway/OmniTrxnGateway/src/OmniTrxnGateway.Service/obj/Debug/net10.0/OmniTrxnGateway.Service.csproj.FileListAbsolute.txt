@@ -62,3 +62,4 @@ C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\gateway\OmniTrxnGa
 C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\gateway\OmniTrxnGateway\src\OmniTrxnGateway.Service\obj\Debug\net10.0\OmniTrxnGateway.Service.genruntimeconfig.cache
 C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\gateway\OmniTrxnGateway\src\OmniTrxnGateway.Service\obj\Debug\net10.0\ref\OmniTrxnGateway.Service.dll
 C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\gateway\OmniTrxnGateway\src\OmniTrxnGateway.Service\bin\Debug\net10.0\appsettings.Docker.json
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\gateway\OmniTrxnGateway\src\OmniTrxnGateway.Service\obj\Debug\net10.0\OmniTrxnGateway.Service.sourcelink.json

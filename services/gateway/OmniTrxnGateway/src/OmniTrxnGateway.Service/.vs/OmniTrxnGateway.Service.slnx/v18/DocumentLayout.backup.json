@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\gateway\\omnitrxngateway\\src\\omnitrxngateway.service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\gateway\\omnitrxngateway\\src\\omnitrxngateway.service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\gateway\\omnitrxngateway\\src\\omnitrxngateway.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\gateway\\omnitrxngateway\\src\\omnitrxngateway.service\\appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|solutionrelative:appsettings.docker.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\gateway\\omnitrxngateway\\src\\omnitrxngateway.service\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\gateway\\omnitrxngateway\\src\\omnitrxngateway.service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25FD5F77-2A93-8D5C-9490-EA229E1EEE8B}|OmniTrxnGateway.Service.csproj|c:\\development\\projects\\assessments\\capitec\\omnitrxn\\services\\gateway\\omnitrxngateway\\src\\omnitrxngateway.service\\tokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,33 +42,31 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\gateway\\OmniTrxnGateway\\src\\OmniTrxnGateway.Service\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\gateway\\OmniTrxnGateway\\src\\OmniTrxnGateway.Service\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-30T12:04:53.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-30T12:04:53.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "appsettings.Docker.json",
               "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\gateway\\OmniTrxnGateway\\src\\OmniTrxnGateway.Service\\appsettings.Docker.json",
               "RelativeDocumentMoniker": "appsettings.Docker.json",
               "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\gateway\\OmniTrxnGateway\\src\\OmniTrxnGateway.Service\\appsettings.Docker.json",
               "RelativeToolTip": "appsettings.Docker.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-30T12:23:53.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-30T12:23:53.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\gateway\\OmniTrxnGateway\\src\\OmniTrxnGateway.Service\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -76,12 +74,11 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-30T12:04:55.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-30T12:04:55.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\gateway\\OmniTrxnGateway\\src\\OmniTrxnGateway.Service\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-08-30T11:52:04.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-30T11:52:04.17Z"
             },
             {
               "$type": "Document",
@@ -124,7 +120,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\gateway\\OmniTrxnGateway\\src\\OmniTrxnGateway.Service\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPAAAAAAAAAAAAApwAUBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-30T11:29:22.344Z",
               "EditorCaption": ""

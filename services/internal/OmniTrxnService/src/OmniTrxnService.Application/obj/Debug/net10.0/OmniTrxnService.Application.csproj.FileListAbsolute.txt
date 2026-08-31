@@ -8,6 +8,7 @@ C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnS
 C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Application\obj\Debug\net10.0\OmniTrxnService.Application.AssemblyInfoInputs.cache
 C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Application\obj\Debug\net10.0\OmniTrxnService.Application.AssemblyInfo.cs
 C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Application\obj\Debug\net10.0\OmniTrxnService.Application.csproj.CoreCompileInputs.cache
+C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Application\obj\Debug\net10.0\OmniTrxnService.Application.sourcelink.json
 C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Application\obj\Debug\net10.0\OmniTrxn.AF6B8446.Up2Date
 C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Application\obj\Debug\net10.0\OmniTrxnService.Application.dll
 C:\Development\Projects\Assessments\Capitec\OmniTRXN\services\internal\OmniTrxnService\src\OmniTrxnService.Application\obj\Debug\net10.0\refint\OmniTrxnService.Application.dll

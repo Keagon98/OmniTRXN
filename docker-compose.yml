@@ -30,7 +30,7 @@ services:
       context: ./services/gateway/OmniTrxnGateway
       dockerfile: Dockerfile               
     image:   gateway:latest                    
-    container_name: omnitrxn-gateway      
+    container_name: gateway-omnitrxn     
     ports:
       - "8082:8080"                        
     environment:
@@ -50,12 +50,14 @@ services:
       context: ./services/internal/OmniTrxnService
       dockerfile: Dockerfile               
     image:   omnitrxn:latest                    
-    container_name: omnitrxn-transaction-api      
+    container_name: api-omnitrxn   
     ports:
       - "8083:8080"                       
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
       - ServiceUrls__Gateway=http://gateway:8080
+      - OpenApi__GatewayUrl=http://localhost:8082
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=OmniTrxn;User Id=sa;Password=oMn!3x==;TrustServerCertificate=True
     depends_on:
       - gateway
       - sqlserver
@@ -65,7 +67,7 @@ services:
 
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: omnitrxn-db
+    container_name: db-omnitrxn
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: "oMn!3x=="
@@ -73,6 +75,15 @@ services:
       - "1433:1433"
     volumes:
       - sql_data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P oMn!3x== -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    networks:
+      - app-network
+
 volumes:
   sql_data:
 

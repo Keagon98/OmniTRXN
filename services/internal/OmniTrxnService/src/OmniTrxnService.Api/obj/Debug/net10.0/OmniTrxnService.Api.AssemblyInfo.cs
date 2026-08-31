@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OmniTrxnService.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9380fb3f1a546f624bbb69c3365c76ba2a20a9ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("OmniTrxnService.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OmniTrxnService.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

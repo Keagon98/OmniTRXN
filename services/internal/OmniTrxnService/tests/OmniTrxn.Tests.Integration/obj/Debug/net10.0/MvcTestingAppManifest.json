@@ -1,0 +1,6 @@
+{
+  "OmniTrxnService.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Api",
+  "OmniTrxnService.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Application",
+  "OmniTrxnService.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Domain",
+  "OmniTrxnService.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Development\\Projects\\Assessments\\Capitec\\OmniTRXN\\services\\internal\\OmniTrxnService\\src\\OmniTrxnService.Infrastructure"
+}

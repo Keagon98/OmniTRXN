@@ -2,6 +2,7 @@ using Asp.Versioning;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi;
 using OmniTrxnService.Api.Middleware;
 using OmniTrxnService.Application.Common.Interfaces;
@@ -18,7 +19,8 @@ using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 
-string gatewayUrl = builder.Configuration["ServiceUrls:Gateway"];
+var gatewayUrl = builder.Configuration["ServiceUrls:Gateway"];
+var openApiGatewayUrl = builder.Configuration["OpenApi:GatewayUrl"] ?? gatewayUrl;
 
 builder.Services.AddInfrastructure(builder.Configuration);
 
@@ -68,7 +70,7 @@ builder.Services.AddOpenApi(options =>
         document.Info.Description = "API exposed through the gateway";
         document.Servers = new List<OpenApiServer>
         {
-            new OpenApiServer { Url = gatewayUrl }
+            new OpenApiServer { Url = openApiGatewayUrl }
         };
 
         document.Components ??= new OpenApiComponents();
@@ -148,7 +150,7 @@ builder.Logging.AddDebug();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.EnvironmentName == "Docker")
 {
     app.MapOpenApi("/openapi/v1.json");
 
@@ -162,9 +164,6 @@ if (app.Environment.IsDevelopment())
 
 // Global exception handling middleware
 app.UseMiddleware<ExceptionHandlingMiddleware>();
-
-app.UseHttpsRedirection();
-
 
 app.MapControllers();
 app.MapHealthChecks("/health");
@@ -188,3 +187,5 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.Run();
+
+public partial class Program { }
