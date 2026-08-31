@@ -90,7 +90,7 @@ Below is a high-level view of the System Architecture for this project
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-org/omnitrxn.git](https://github.com/Keagon98/OmniTRXN.git
+git clone https://github.com/Keagon98/OmniTRXN.git
 cd OmniTRXN
 ```
 
