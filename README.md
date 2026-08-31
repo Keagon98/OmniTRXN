@@ -22,7 +22,9 @@ The solution is divided into four main layers:
 
 All communication with external services goes through the API Gateway. The gateway authenticates incoming requests (JWT) and injects the required Basic Auth credentials for the upstream vendor services.
 
-Below is a high level view of the System Architecture for this project
+Below is a high-level view of the System Architecture for this project
+
+<img width="13852" height="6465" alt="OmnTRXN-System-Architecture" src="https://github.com/user-attachments/assets/2dcf4e03-d4ba-4289-b60e-dfa2dd425e9b" />
 
 ---
 
