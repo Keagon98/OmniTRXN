@@ -4,7 +4,7 @@ OmniTRXN is a backend service that aggregates customer transaction data from mul
 
 #### Project Goals
 ---
-###### The why?
+##### The why?
 
 To get a damn job at Capitec!!! I'm kidding (well kind of)…
 
@@ -13,7 +13,7 @@ The goal of this project is to demonstrate how production-ready systems integrat
 This project should also be easy to clone and run locally by anybody using a docker compose file.
 
 ---
-###### The Who?
+##### The Who?
 
 Who is the target user for this type of project?
 
