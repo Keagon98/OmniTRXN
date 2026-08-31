@@ -150,3 +150,15 @@ This project includes unit and integration testing. Run the following command in
 ```bash
 dotnet test
 ```
+
+To run Unit tests separately, run the following command
+
+```bash
+dotnet test tests/OmniTrxn.Tests.Unit/OmniTrxn.Tests.Unit.csproj
+```
+
+To run Integration tests separately, run the following command
+
+```bash
+dotnet test tests/OmniTrxn.Tests.Integration/OmniTrxn.Tests.Integration.csproj
+```
