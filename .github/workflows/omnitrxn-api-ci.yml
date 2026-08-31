@@ -1,0 +1,34 @@
+name: CI Pipeline - OmniTRXN API
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore services/internal/OmniTrxnService/OmniTrxnService.slnx
+
+      - name: Build solution
+        run: dotnet build services/internal/OmniTrxnService/OmniTrxnService.slnx --no-restore --configuration Release
+
+      - name: Run Unit Tests
+        run: dotnet test services/internal/OmniTrxnService/tests/OmniTrxn.Tests.Unit/OmniTrxn.Tests.Unit.csproj --no-build --configuration Release --logger "console;verbosity=normal"
+
+      - name: Run Integration Tests
+        run: dotnet test services/internal/OmniTrxnService/tests/OmniTrxn.Tests.Integration/OmniTrxn.Tests.Integration.csproj --no-build --configuration Release --logger "console;verbosity=normal"
+        env:
+          DOCKER_HOST: unix:///var/run/docker.sock
