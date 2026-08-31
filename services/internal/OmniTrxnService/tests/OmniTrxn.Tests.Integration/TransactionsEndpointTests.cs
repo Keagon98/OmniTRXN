@@ -39,7 +39,7 @@ namespace OmniTrxn.Tests.Integration
             await IngestTransactionsAsync("cust42158");
 
             // Act
-            var response = await _client.GetAsync("/api/Transactions?customerNumber=cust42158");
+            var response = await _client.GetAsync("/api/v1/Transactions?customerNumber=cust42158");
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -56,7 +56,7 @@ namespace OmniTrxn.Tests.Integration
             await IngestTransactionsAsync("cust42158");
 
             // Act
-            var response = await _client.GetAsync("/api/Transactions?customerNumber=cust42158&category=Groceries");
+            var response = await _client.GetAsync("/api/v1/Transactions?customerNumber=cust42158&category=Groceries");
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -72,7 +72,7 @@ namespace OmniTrxn.Tests.Integration
             await IngestTransactionsAsync("cust42158");
 
             // Act
-            var response = await _client.GetAsync("/api/Transactions?customerNumber=cust42158&debitCredit=Debit");
+            var response = await _client.GetAsync("/api/v1/Transactions?customerNumber=cust42158&debitCredit=Debit");
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -88,7 +88,7 @@ namespace OmniTrxn.Tests.Integration
             await IngestTransactionsAsync("cust42158");
 
             // Act
-            var response = await _client.GetAsync("/api/Transactions?customerNumber=cust42158&vendor=Ozow");
+            var response = await _client.GetAsync("/api/v1/Transactions?customerNumber=cust42158&vendor=Ozow");
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -104,7 +104,7 @@ namespace OmniTrxn.Tests.Integration
             await IngestTransactionsAsync("cust42158");
 
             // Act
-            var response = await _client.GetAsync("/api/Transactions?customerNumber=cust42158&fromDate=2026-08-01&toDate=2026-08-31");
+            var response = await _client.GetAsync("/api/v1/Transactions?customerNumber=cust42158&fromDate=2026-08-01&toDate=2026-08-31");
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -120,7 +120,7 @@ namespace OmniTrxn.Tests.Integration
             await IngestTransactionsAsync("cust42158");
 
             // Act
-            var response = await _client.GetAsync("/api/Transactions");
+            var response = await _client.GetAsync("/api/v1/Transactions");
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -135,7 +135,7 @@ namespace OmniTrxn.Tests.Integration
             await IngestTransactionsAsync("cust42158");
 
             // Act
-            var response = await _client.GetAsync("/api/Transactions?page=1&pageSize=5");
+            var response = await _client.GetAsync("/api/v1/Transactions?page=1&pageSize=5");
 
             // Assert
             response.StatusCode.Should().Be(HttpStatusCode.OK);
