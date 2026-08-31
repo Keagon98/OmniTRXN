@@ -22,14 +22,12 @@ Who is the target user for this type of project?
 - **Finance and accounting**: to reconcile transactions, run summaries, and support audits.
 - **Fraud and risk teams**: to detect anomalies and investigate suspicious activity.
 
-There's many more of course.
-
 ---
 
 This repository includes:
-- **OmniTRXN API** (internal service) – built with .NET 10
+- **OmniTRXN API** (internal service)
 - **API Gateway** (YARP) – handles routing, authentication, caching, and more
-- **External vendor services** – one REST (Ozow, Spring Boot) and one SOAP (FNB)
+- **External vendor services** – one REST (Ozow) and one SOAP (FNB) service
 - **SQL Server** database
 - **Docker Compose** file to run the entire stack locally
 
@@ -56,7 +54,7 @@ Below is a high-level view of the System Architecture for this project
 
 - **Periodic Ingestion**: A background service polls the external APIs at configurable intervals to fetch transaction data.
 - **Normalization**: Raw responses are converted to a common JSON format and mapped to the internal `Transaction` entity. XML responses are first converted to JSON.
-- **Storage**: Transactions are upserted into SQL Server (with unique constraint on vendor + transaction ID).
+- **Storage**: Transactions are upserted into SQL Server.
 - **Secure Query API**: Endpoints allow filtering by category, debit/credit, vendor, customer number, and date range.
 - **Seeding**: The database is automatically seeded with a sample customer and vendor mappings on startup.
 - **Observability**: Structured logging, exception handling, and health checks are included.
