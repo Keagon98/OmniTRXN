@@ -2,6 +2,28 @@
 
 OmniTRXN is a backend service that aggregates customer transaction data from multiple external sources, normalizes it into a standardized format, stores it in a SQL Server database, and exposes it through a secure, documented REST API. The solution follows **Clean Architecture** principles and adheres to **SOLID** and **OOP** best practices.
 
+#### Project Goals
+---
+###### The why?
+
+To get a damn job at Capitec!!! I'm kidding (well kind of)…
+
+The goal of this project is to demonstrate how production-ready systems integrate with external vendors/merchants, how systems ingest data (sometimes ambiguous) in various formats (JSON/XML in this instance) and normalize data to a single standardized schema, and how they store data in a queryable relational database with a retention policy. It should also demonstrate how systems securely expose data to external users for consumption via a well documented API, and how systems handle retry logic, logging, and metrics.
+
+This project should also be easy to clone and run locally by anybody using a docker compose file.
+
+---
+###### The Who?
+
+Who is the target user for this type of project?
+
+- **Data analysts**: to build dashboards and run ad-hoc queries on transaction trends.
+- **Business intelligence teams**: to create scheduled reports from aggregated data.
+- **Finance and accounting**: to reconcile transactions, run summaries, and support audits.
+- **Fraud and risk teams**: to detect anomalies and investigate suspicious activity.
+
+There's many more of course.
+
 This repository includes:
 - **OmniTRXN API** (internal service) – built with .NET 10
 - **API Gateway** (YARP) – handles routing, authentication, caching, and more
