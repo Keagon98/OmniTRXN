@@ -2,37 +2,37 @@ services:
   ozow:
     build:
       context: ./services/external/ozow-transaction-api/OzowTransactionService
-      dockerfile: Dockerfile               
-    image:   ozow:latest                    
-    container_name: ozow-transaction-api      
+      dockerfile: Dockerfile
+    image: ozow:latest
+    container_name: ozow-transaction-api
     ports:
-      - "8080:8080"                       
+      - "8080:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-    restart: unless-stopped    
-    networks:
-      - app-network 
-  
-  fnb:
-    build:
-      context: ./services/external/fnb-transaction-api/FnbTransactionService  
-      dockerfile: Dockerfile
-    image:   fnb:latest  
-    container_name: fnb-transaction-api 
-    ports:
-      - "8081:8080"   
     restart: unless-stopped
     networks:
-      - app-network          
-  
+      - app-network
+
+  fnb:
+    build:
+      context: ./services/external/fnb-transaction-api/FnbTransactionService
+      dockerfile: Dockerfile
+    image: fnb:latest
+    container_name: fnb-transaction-api
+    ports:
+      - "8081:8080"
+    restart: unless-stopped
+    networks:
+      - app-network
+
   gateway:
     build:
       context: ./services/gateway/OmniTrxnGateway
-      dockerfile: Dockerfile               
-    image:   gateway:latest                    
-    container_name: gateway-omnitrxn     
+      dockerfile: Dockerfile
+    image: gateway:latest
+    container_name: gateway-omnitrxn
     ports:
-      - "8082:8080"                        
+      - "8082:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
       - ServiceUrls__Ozow=http://ozow:8080
@@ -41,29 +41,37 @@ services:
     depends_on:
       - ozow
       - fnb
-    restart: unless-stopped    
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'echo > /dev/tcp/localhost/8080'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    restart: unless-stopped
     networks:
-      - app-network 
+      - app-network
 
   omnitrxn:
     build:
       context: ./services/internal/OmniTrxnService
-      dockerfile: Dockerfile               
-    image:   omnitrxn:latest                    
-    container_name: api-omnitrxn   
+      dockerfile: Dockerfile
+    image: omnitrxn:latest
+    container_name: api-omnitrxn
     ports:
-      - "8083:8080"                       
+      - "8083:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Docker
       - ServiceUrls__Gateway=http://gateway:8080
       - OpenApi__GatewayUrl=http://localhost:8082
       - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=OmniTrxn;User Id=sa;Password=oMn!3x==;TrustServerCertificate=True
     depends_on:
-      - gateway
-      - sqlserver
-    restart: unless-stopped    
+      gateway:
+        condition: service_healthy
+      sqlserver:
+        condition: service_healthy
+    restart: unless-stopped
     networks:
-      - app-network 
+      - app-network
 
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2022-latest
@@ -76,7 +84,7 @@ services:
     volumes:
       - sql_data:/var/opt/mssql
     healthcheck:
-      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P oMn!3x== -Q 'SELECT 1' || exit 1"]
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 'oMn!3x==' -Q 'SELECT 1' -C -N -b"]
       interval: 10s
       timeout: 5s
       retries: 10

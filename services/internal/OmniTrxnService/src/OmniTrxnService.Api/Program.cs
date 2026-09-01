@@ -66,9 +66,9 @@ builder.Services.AddOpenApi(options =>
 {
     options.AddDocumentTransformer((document, context, cancellationToken) =>
     {
-        document.Info.Title = "My Internal API";
+        document.Info.Title = "OmniTRXN Transaction API";
         document.Info.Version = "v1";
-        document.Info.Description = "API exposed through the gateway";
+        document.Info.Description = "This API exposes a single transactions endpoint to query aggregated customer transaction data.";
         document.Servers = new List<OpenApiServer>
         {
             new OpenApiServer { Url = openApiGatewayUrl }

@@ -22,5 +22,8 @@ COPY --from=build /app/publish .
 # Expose the default port
 EXPOSE 8080
 
+# Install curl for health checks
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+
 # Run the application
 ENTRYPOINT ["dotnet", "OmniTrxnGateway.Service.dll"]
