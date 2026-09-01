@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OmniTrxn.Tests.Unit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7ad7e1b64cd463690eaeb9f29483b9463535461")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b1b2c2f9199baa5fd24ccd9c15440d39ad9a8c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("OmniTrxn.Tests.Unit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OmniTrxn.Tests.Unit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
