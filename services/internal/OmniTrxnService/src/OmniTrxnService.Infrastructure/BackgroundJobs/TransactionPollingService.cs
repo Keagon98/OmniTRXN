@@ -41,7 +41,7 @@ namespace OmniTrxnService.Infrastructure.BackgroundJobs
                     _logger.LogError(ex, "Error during polling cycle.");
                 }
 
-                var intervalMinutes = _configuration.GetValue<int>("Polling:IntervalMinutes", 60);
+                var intervalMinutes = _configuration.GetValue<int>("Polling:IntervalMinutes", 5);
                 await Task.Delay(TimeSpan.FromMinutes(intervalMinutes), stoppingToken);
             }
         }
